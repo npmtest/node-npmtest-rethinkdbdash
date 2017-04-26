@@ -1,6 +1,6 @@
 # npmtest-rethinkdbdash
 
-#### test coverage for  [rethinkdbdash (v2.3.28)](https://github.com/neumino/rethinkdbdash#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rethinkdbdash.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rethinkdbdash) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rethinkdbdash.svg)](https://travis-ci.org/npmtest/node-npmtest-rethinkdbdash)
+#### basic test coverage for  [rethinkdbdash (v2.3.28)](https://github.com/neumino/rethinkdbdash#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rethinkdbdash.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rethinkdbdash) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rethinkdbdash.svg)](https://travis-ci.org/npmtest/node-npmtest-rethinkdbdash)
 
 #### A Node.js driver for RethinkDB with promises and a connection pool
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-rethinkdbdash/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-rethinkdbdash/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-rethinkdbdash/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-rethinkdbdash/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rethinkdbdash/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rethinkdbdash/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-rethinkdbdash/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-rethinkdbdash/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rethinkdbdash/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rethinkdbdash/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-rethinkdbdash/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-rethinkdbdash/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
         "browserify": "node browserify.js",
         "test": "mocha --check-leaks -t 20000"
     },
-    "version": "2.3.28"
+    "version": "2.3.28",
+    "bin": {}
 }
 ```
 
